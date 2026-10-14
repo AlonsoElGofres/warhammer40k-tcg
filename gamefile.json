@@ -1,3 +1,4 @@
+
 {
   "name": "Warhammer 40,000 TCG (nombre provisional)",
   "deckBuilding": {
@@ -34,39 +35,37 @@
         "layout": {
           "direction": "column",
           "content": [
-          {
-            "section": "Board"
-          },
-          {
-            "section": "Setup"
-          }
-]
+            {
+              "section": "Board"
+            },
+            {
+              "section": "Setup"
+            }
+          ]
         },
-        
-"sectionsDict": {
-  "Board": {
-    "isHidden": "no",
-    "height": "MEDIUM",
-    "alignment": "CENTER"
-  },
-  "Setup": {
-    "type": "custom",
-    "defaultValue": {},
-    "blueprint": {
-      "type": "div",
-      "children": "Preparando el Núcleo..."
-    },
-    "events": {
-      "onPlayersDeckPicked": "const deck = cards.Deck ?? []; const core = deck.find(card => functions.getCardData(card)?.id === 'yggdr-votann'); if (core) await functions.moveCard(core, 'Board');"
-    }
-  }
-}
-
+        "sectionsDict": {
+          "Board": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "Setup": {
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "children": "Preparando el Núcleo..."
+            },
+            "events": {
+              "onPlayersDeckPicked": "const deck = cards.Deck ?? []; const core = deck.find(card => functions.getCardData(card)?.id === 'yggdr-votann'); if (core) await functions.moveCard(core, 'Board');"
+            }
+          }
+        }
       }
     }
   },
   "cards": {
-  "dataUrl": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/cards.json",
-  "cardBack": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/card-back.png"
-}
+    "dataUrl": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/cards.json",
+    "cardBack": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/card-back.png"
+  }
 }
