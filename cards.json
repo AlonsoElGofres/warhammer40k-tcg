@@ -36,14 +36,14 @@
     "face": {
       "front": {
         "name": {
-          "name": "Fragmentos de cthonita"
+          "name": "Mineral de prospección cthoniana"
         },
         "type": "Recurso",
         "cost": 0,
         "image": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/fragmentos-de-cthonita.png"
       }
     },
-    "name": "Fragmentos de cthonita",
+    "name": "Mineral de prospección cthoniana",
     "type": "Recurso",
     "cost": 0,
     "isToken": true
