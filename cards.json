@@ -15,5 +15,22 @@
     "name": "Yggdr-Votann",
     "type": "Núcleo",
     "cost": 0
+  },
+  "mina-extraccion-cthoniana-001": {
+    "id": "mina-extraccion-cthoniana-001",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Mina de extracción cthoniana"
+        },
+        "type": "Generador de recursos",
+        "cost": 0,
+        "effect": "Agota esta instalación: obtén 1 recurso.",
+        "description": "Bajo la roca y el vacío, los Kin extraen la riqueza que mantiene viva a su Liga."
+      }
+    },
+    "name": "Mina de extracción cthoniana",
+    "type": "Generador de recursos",
+    "cost": 0
   }
 }
