@@ -34,10 +34,13 @@
         "layout": {
           "direction": "column",
           "content": [
-            {
-              "section": "Board"
-            }
-          ]
+          {
+            "section": "Board"
+          },
+          {
+            "section": "Setup"
+          }
+]
         },
         
 "sectionsDict": {
