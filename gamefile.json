@@ -1,0 +1,56 @@
+{
+  "name": "Warhammer 40,000 TCG (nombre provisional)",
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost"
+    ],
+    "formats": [
+      {
+        "title": "Construido",
+        "gameplay": "Principal",
+        "deckRuleset": "Mazo de 50"
+      }
+    ],
+    "deckRulesets": {
+      "Mazo de 50": {
+        "general": {
+          "min": 50,
+          "max": 50
+        }
+      }
+    }
+  },
+  "gameplay": {
+    "Principal": {
+      "mulligan": {
+        "startingHandSize": 5
+      },
+      "newTurn": {
+        "sharedTurn": false,
+        "drawOnStart": true
+      },
+      "sections": {
+        "layout": {
+          "direction": "column",
+          "content": [
+            {
+              "section": "Board"
+            }
+          ]
+        },
+        "sectionsDict": {
+          "Board": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          }
+        }
+      }
+    }
+  },
+  "cards": {
+    "dataUrl": "https://REEMPLAZAR-CON-URL-PUBLICA/cards.json",
+    "cardBack": "https://REEMPLAZAR-CON-URL-PUBLICA/card-back.png"
+  }
+}
