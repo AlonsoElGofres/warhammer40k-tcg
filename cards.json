@@ -1,5 +1,3 @@
-
-
 {
   "yggdr-votann": {
     "id": "yggdr-votann",
@@ -32,6 +30,22 @@
     "name": "Mina de extracción cthoniana",
     "type": "Generador de recursos",
     "cost": 0
+  },
+  "fragmentos-de-cthonita": {
+    "id": "fragmentos-de-cthonita",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Fragmentos de cthonita"
+        },
+        "type": "Recurso",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/fragmentos-de-cthonita.png"
+      }
+    },
+    "name": "Fragmentos de cthonita",
+    "type": "Recurso",
+    "cost": 0,
+    "isToken": true
   }
 }
-
