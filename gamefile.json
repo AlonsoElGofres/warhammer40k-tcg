@@ -1,4 +1,5 @@
 
+
 {
   "name": "Warhammer 40,000 TCG (nombre provisional)",
   "deckBuilding": {
@@ -57,7 +58,7 @@
               "children": "Preparando el Núcleo..."
             },
             "events": {
-              "onPlayersDeckPicked": "const deck = cards.Deck ?? []; const core = deck.find(card => functions.getCardData(card)?.id === 'yggdr-votann'); if (core) await functions.moveCard(core, 'Board');"
+              "onPlayersDeckPicked": "const deck = cards.Deck ?? []; const core = deck.find(card => functions.getCardData(card)?.id === 'yggdr-votann'); if (core) { await functions.moveCard(core, 'Board'); functions.chatLog('Núcleo Yggdr-Votann colocado en el tablero.'); } else { functions.chatLog('No se encontró Yggdr-Votann en la sección Deck.'); }"
             }
           }
         }
