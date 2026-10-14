@@ -1,10 +1,7 @@
 {
   "name": "Warhammer 40,000 TCG (nombre provisional)",
   "deckBuilding": {
-    "mainFilters": [
-      "type",
-      "cost"
-    ],
+    "mainFilters": ["type", "cost"],
     "formats": [
       {
         "title": "Construido",
@@ -53,6 +50,9 @@
           "content": [
             {
               "section": "Board"
+            },
+            {
+              "section": "Setup"
             }
           ]
         },
@@ -73,10 +73,17 @@
             "displayedTitle": "Núcleo seleccionado",
             "noQuickActions": true
           },
-          "Scripts": {
+          "Setup": {
             "type": "custom",
+            "defaultValue": {
+              "message": "Preparando el Núcleo..."
+            },
+            "blueprint": {
+              "type": "div",
+              "children": "{{ game.data.Setup.message }}"
+            },
             "events": {
-              "onPlayersBoardCardSelected": "for (const card of cards?.['Núcleo'] ?? []) { if (card.owner === game.playerId) { await functions.moveCard(card, 'Board'); } } await functions.repositionCards();"
+              "onPlayersBoardCardSelected": "const selected = cards?.['Núcleo'] ?? []; for (const card of selected) { await functions.moveCard(card, 'Board'); } game.data.Setup.message = '';"
             }
           }
         }
