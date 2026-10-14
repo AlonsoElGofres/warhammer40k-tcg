@@ -1,7 +1,10 @@
 {
   "name": "Warhammer 40,000 TCG (nombre provisional)",
   "deckBuilding": {
-    "mainFilters": ["type", "cost"],
+    "mainFilters": [
+      "type",
+      "cost"
+    ],
     "formats": [
       {
         "title": "Construido",
@@ -14,29 +17,12 @@
         "general": {
           "min": 50,
           "max": 50
-        },
-        "categories": [
-          {
-            "category": "Núcleo",
-            "min": 1,
-            "max": 1,
-            "maxPerCard": 1
-          }
-        ]
+        }
       }
     }
   },
   "gameplay": {
     "Principal": {
-      "beforeGameStart": {
-        "boardCardSelection": [
-          {
-            "category": "Núcleo",
-            "min": 1,
-            "max": 1
-          }
-        ]
-      },
       "mulligan": {
         "startingHandSize": 5
       },
@@ -52,13 +38,10 @@
               "section": "Board"
             },
             {
-              "section": "Setup"
+              "section": "Scripts"
             }
           ]
         },
-        "categoriesAlreadyOnBoard": [
-          "Núcleo"
-        ],
         "sectionsDict": {
           "Board": {
             "isHidden": "no",
@@ -66,31 +49,25 @@
             "alignment": "CENTER",
             "displayedTitle": "Tablero"
           },
-          "Núcleo": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "DECK",
-            "displayedTitle": "Núcleo seleccionado",
-            "noQuickActions": true
-          },
-          "Setup": {
+          "Scripts": {
             "type": "custom",
             "defaultValue": {
-              "message": "Preparando el Núcleo..."
+              "status": "Preparando el Núcleo...",
+              "coreCreated": false
             },
             "blueprint": {
               "type": "div",
-              "children": "{{ game.data.Setup.message }}"
+              "children": "{{ game.data.Scripts.status }}"
             },
             "events": {
-              "onPlayersBoardCardSelected": "const selected = cards?.['Núcleo'] ?? []; for (const card of selected) { await functions.moveCard(card, 'Board'); } game.data.Setup.message = '';"
+              "onStart": "game.data.Scripts.status = 'Preparando el Núcleo...'; game.data.Scripts.coreCreated = false;",
+              "onPlayersDeckPicked": "if (!game.data.Scripts.coreCreated) { game.data.Scripts.coreCreated = true; game.data.Scripts.status = 'Preparando el Núcleo...'; try { await functions.createCard('yggdr-votann', 'Board'); game.data.Scripts.status = ''; } catch (error) { game.data.Scripts.coreCreated = false; game.data.Scripts.status = 'No se pudo crear el Núcleo. Revisa el registro de la partida.'; functions.chatLog('Error al crear Yggdr-Votann: ' + String(error)); } }"
             }
           }
         }
       }
     }
-  },
-  "cards": {
+    "cards": {
     "dataUrl": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/cards.json",
     "cardBack": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/card-back.png"
   }
