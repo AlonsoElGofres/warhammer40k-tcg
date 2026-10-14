@@ -67,7 +67,8 @@
         }
       }
     }
-    "cards": {
+  },
+  "cards": {
     "dataUrl": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/cards.json",
     "cardBack": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/card-back.png"
   }
