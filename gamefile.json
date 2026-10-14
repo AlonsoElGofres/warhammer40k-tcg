@@ -23,15 +23,6 @@
   },
   "gameplay": {
     "Principal": {
-      "beforeGameStart": {
-        "initialBoardSetup": [
-          {
-            "createCardId": "yggdr-votann",
-            "count": 1,
-            "destination": "Board"
-          }
-        ]
-      },
       "mulligan": {
         "startingHandSize": 5
       },
@@ -52,15 +43,14 @@
           "Board": {
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "CENTER",
-            "displayedTitle": "Tablero"
+            "alignment": "CENTER"
           }
         }
       }
     }
   },
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/cards.json",
-    "cardBack": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/card-back.png"
+    "dataUrl": "https://REEMPLAZAR-CON-URL-PUBLICA/cards.json",
+    "cardBack": "https://REEMPLAZAR-CON-URL-PUBLICA/card-back.png"
   }
 }
