@@ -1,0 +1,19 @@
+
+{
+  "yggdr-votann": {
+    "id": "yggdr-votann",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Yggdr-Votann"
+        },
+        "type": "Núcleo",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/Yggdr-Votann_%20Archivo%20de%20los%20Ca%C3%ADdos.png"
+      }
+    },
+    "name": "Yggdr-Votann",
+    "type": "Núcleo",
+    "cost": 0
+  }
+}
