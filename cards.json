@@ -1,4 +1,5 @@
 
+
 {
   "yggdr-votann": {
     "id": "yggdr-votann",
@@ -25,8 +26,7 @@
         },
         "type": "Generador de recursos",
         "cost": 0,
-        "effect": "Agota esta instalación: obtén 1 recurso.",
-        "description": "Bajo la roca y el vacío, los Kin extraen la riqueza que mantiene viva a su Liga."
+        "image": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/mina-extraccion-cthoniana.png"
       }
     },
     "name": "Mina de extracción cthoniana",
@@ -34,3 +34,4 @@
     "cost": 0
   }
 }
+
