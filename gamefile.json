@@ -23,15 +23,6 @@
   },
   "gameplay": {
     "Principal": {
-      "beforeGameStart": {
-        "initialBoardSetup": [
-          {
-            "createCardId": "yggdr-votann",
-            "count": 1,
-            "destination": "Board"
-          }
-        ]
-      },
       "mulligan": {
         "startingHandSize": 5
       },
@@ -45,6 +36,9 @@
           "content": [
             {
               "section": "Board"
+            },
+            {
+              "section": "Scripts"
             }
           ]
         },
@@ -54,12 +48,31 @@
             "height": "MEDIUM",
             "alignment": "CENTER",
             "displayedTitle": "Tablero"
+          },
+          "Scripts": {
+            "type": "custom",
+            "defaultValue": {
+              "status": "Preparando el Núcleo...",
+              "coreCreated": false
+            },
+            "blueprint": {
+              "type": "div",
+              "children": "{{ game.data.Scripts.status }}"
+            },
+            "events": {
+              "onStart": "game.data.Scripts.status = 'Preparando el Núcleo...'; game.data.Scripts.coreCreated = false;",
+              "onPlayersDeckPicked": "if (!game.data.Scripts.coreCreated) { game.data.Scripts.status = 'Preparando el Núcleo...'; try { await functions.createCard('yggdr-votann', 'Board'); game.data.Scripts.coreCreated = true; game.data.Scripts.status = ''; } catch (error) { game.data.Scripts.status = 'Error al crear el Núcleo. Revisa el registro de la partida.'; functions.chatLog('Error al crear Yggdr-Votann: ' + String(error)); } }"
+            }
           }
         }
       }
     }
   },
   "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/cards.json",
+    "cardBack": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/card-back.png"
+  }
+}ds": {
     "dataUrl": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/cards.json",
     "cardBack": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/card-back.png"
   }
