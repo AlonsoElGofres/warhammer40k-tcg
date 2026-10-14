@@ -39,13 +39,26 @@
             }
           ]
         },
-        "sectionsDict": {
-          "Board": {
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          }
-        }
+        
+"sectionsDict": {
+  "Board": {
+    "isHidden": "no",
+    "height": "MEDIUM",
+    "alignment": "CENTER"
+  },
+  "Setup": {
+    "type": "custom",
+    "defaultValue": {},
+    "blueprint": {
+      "type": "div",
+      "children": "Preparando el Núcleo..."
+    },
+    "events": {
+      "onPlayersDeckPicked": "const deck = cards.Deck ?? []; const core = deck.find(card => functions.getCardData(card)?.id === 'yggdr-votann'); if (core) await functions.moveCard(core, 'Board');"
+    }
+  }
+}
+
       }
     }
   },
