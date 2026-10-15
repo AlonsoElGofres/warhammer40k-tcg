@@ -1,7 +1,12 @@
 {
   "name": "Warhammer 40K TCG",
-  "customHelp": "Prototipo inicial. Mazo de 60 cartas, máximo 4 copias por carta, 30 vidas y mano inicial de 4. El selector de identidad de facción es experimental y requiere pruebas en TCG Arena.",
+  "customHelp": "Mazo de 60 cartas, máximo 4 copias por carta, 30 vidas iniciales y mano inicial de 4 cartas. Las cartas de tipo Resource se juegan en la zona Recursos.",
   "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost",
+      "faction"
+    ],
     "formats": [
       {
         "title": "Warhammer 40K — Construido",
@@ -17,12 +22,7 @@
           "maxPerCard": 4
         }
       }
-    },
-    "mainFilters": [
-      "type",
-      "cost",
-      "faction"
-    ]
+    }
   },
   "gameplay": {
     "Warhammer40K": {
@@ -32,13 +32,14 @@
       "mulligan": {
         "startingHandSize": 4
       },
+      "newTurn": {
+        "drawOnStart": true,
+        "drawPerTurn": 1
+      },
       "sections": {
         "layout": {
           "direction": "column",
           "content": [
-            {
-              "section": "FactionIdentity"
-            },
             {
               "section": "Board"
             },
@@ -57,124 +58,6 @@
           ]
         },
         "sectionsDict": {
-          "FactionIdentity": {
-            "type": "custom",
-            "defaultValue": {
-              "availableFactions": [
-                {
-                  "id": "ultramarines",
-                  "name": "Ultramarines",
-                  "emblem": "XIII",
-                  "image": "https://example.com/factions/ultramarines.jpg"
-                },
-                {
-                  "id": "orks",
-                  "name": "Orkos",
-                  "emblem": "WAAAGH!",
-                  "image": "https://example.com/factions/orks.jpg"
-                },
-                {
-                  "id": "chaos",
-                  "name": "Marines Espaciales del Caos",
-                  "emblem": "CAOS",
-                  "image": "https://example.com/factions/chaos.jpg"
-                },
-                {
-                  "id": "aeldari",
-                  "name": "Aeldari",
-                  "emblem": "AELDARI",
-                  "image": "https://example.com/factions/aeldari.jpg"
-                }
-              ],
-              "selectedFaction": "",
-              "confirmed": false,
-              "status": "Selecciona tu identidad de facción."
-            },
-            "blueprint": {
-              "type": "div",
-              "props": {
-                "style": {
-                  "padding": "12px",
-                  "border": "1px solid #555",
-                  "borderRadius": "8px"
-                }
-              },
-              "children": [
-                {
-                  "type": "h2",
-                  "children": "Identidad de facción"
-                },
-                {
-                  "type": "p",
-                  "children": "{{ game.data.FactionIdentity.status }}"
-                },
-                {
-                  "type": "div",
-                  "props": {
-                    "style": {
-                      "display": "flex",
-                      "flexWrap": "wrap",
-                      "gap": "12px"
-                    }
-                  },
-                  "children": [
-                    {
-                      "type": "loop",
-                      "iterable": "{{ game.data.FactionIdentity.availableFactions }}",
-                      "template": {
-                        "type": "button",
-                        "props": {
-                          "style": {
-                            "width": "180px",
-                            "padding": "8px",
-                            "display": "flex",
-                            "flexDirection": "column",
-                            "gap": "6px",
-                            "alignItems": "center"
-                          }
-                        },
-                        "children": [
-                          {
-                            "type": "IMG",
-                            "props": {
-                              "src": "{{ item.image }}",
-                              "alt": "{{ item.name }}",
-                              "style": {
-                                "width": "150px",
-                                "height": "190px",
-                                "objectFit": "cover"
-                              }
-                            }
-                          },
-                          {
-                            "type": "strong",
-                            "children": "{{ item.name }}"
-                          },
-                          {
-                            "type": "span",
-                            "children": "{{ item.emblem }}"
-                          },
-                          {
-                            "type": "span",
-                            "children": "Elegir facción"
-                          }
-                        ],
-                        "onClick": "game.data.FactionIdentity.selectedFaction = item.id; game.data.FactionIdentity.confirmed = true; game.data.FactionIdentity.status = 'Identidad elegida: ' + item.name"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "p",
-                  "children": "Facción seleccionada: {{ game.data.FactionIdentity.selectedFaction }}"
-                },
-                {
-                  "type": "p",
-                  "children": "Prototipo experimental: hay que probar el momento de aparición del selector y confirmar que la partida no avance antes de que ambos jugadores elijan."
-                }
-              ]
-            }
-          },
           "Board": {
             "isHidden": "no",
             "height": "MEDIUM",
@@ -216,15 +99,11 @@
             "displayedTitle": "Pila"
           }
         }
-      },
-      "newTurn": {
-        "drawOnStart": true,
-        "drawPerTurn": 1
       }
     }
   },
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/cards.json",
-    "cardBack": "https://example.com/warhammer40k/card-back.jpg"
+    "cardBack": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80"
   }
 }
