@@ -1,0 +1,22 @@
+{
+  "ultramarines-tactical-squad-001": {
+    "id": "ultramarines-tactical-squad-001",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Escuadra Táctica"
+        },
+        "type": "Unit",
+        "cost": 2,
+        "image": "https://example.com/warhammer40k/cards/ultramarines-tactical-squad-001.jpg"
+      }
+    },
+    "name": "Escuadra Táctica",
+    "type": "Unit",
+    "cost": 2,
+    "faction": "Ultramarines",
+    "power": 2,
+    "toughness": 3,
+    "rulesText": "Sin habilidades especiales. Unidad de prueba."
+  }
+}
