@@ -1,7 +1,7 @@
 {
   "name": "Warhammer 40k TCG",
   "deckBuilding": {
-    "mainFilters": ["type", "cost"],
+    "mainFilters": ["type", "cost", "faction", "subfaction"],
     "formats": [
       { "title": "Standard format", "gameplay": "Standard" }
     ]
