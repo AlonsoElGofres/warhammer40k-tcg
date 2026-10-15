@@ -224,7 +224,7 @@
     }
   },
   "cards": {
-    "dataUrl": "https://example.com/warhammer40k/cards.json",
+    "dataUrl": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/cards.json",
     "cardBack": "https://example.com/warhammer40k/card-back.jpg"
   }
 }
