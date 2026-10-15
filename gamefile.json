@@ -1,109 +1,33 @@
 {
-  "name": "Warhammer 40K TCG",
-  "customHelp": "Mazo de 60 cartas, máximo 4 copias por carta, 30 vidas iniciales y mano inicial de 4 cartas. Las cartas de tipo Resource se juegan en la zona Recursos.",
+  "name": "Warhammer 40k TCG",
   "deckBuilding": {
-    "mainFilters": [
-      "type",
-      "cost",
-      "faction"
-    ],
+    "mainFilters": ["type", "cost"],
     "formats": [
-      {
-        "title": "Warhammer 40K — Construido",
-        "gameplay": "Warhammer40K",
-        "deckRuleset": "Warhammer40K_60"
-      }
-    ],
-    "deckRulesets": {
-      "Warhammer40K_60": {
-        "general": {
-          "min": 60,
-          "max": 60,
-          "maxPerCard": 4
-        }
-      }
-    }
+      { "title": "Standard format", "gameplay": "Standard" }
+    ]
   },
   "gameplay": {
-    "Warhammer40K": {
-      "countersStartingValues": [
-        30
-      ],
-      "mulligan": {
-        "startingHandSize": 4
+    "Standard": {
+      "mulligan": { 
+        "startingHandSize": 5 
       },
-      "newTurn": {
-        "drawOnStart": true,
-        "drawPerTurn": 1
+      "newTurn": { 
+        "drawPerTurn": 1 
       },
+      "countersStartingValues": [],
       "sections": {
         "layout": {
           "direction": "column",
-          "content": [
-            {
-              "section": "Board"
-            },
-            {
-              "section": "Hand"
-            },
-            {
-              "section": "Mana"
-            },
-            {
-              "section": "Discard"
-            },
-            {
-              "section": "Deck"
-            }
-          ]
+          "content": [{ "section": "Board" }]
         },
         "sectionsDict": {
-          "Board": {
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "autoPlayFromHand": {
-              "Unit": "Board",
-              "Spell": "Stack",
-              "Resource": "Mana"
-            },
-            "autoPlayFromStack": {
-              "Spell": "Discard"
-            }
-          },
-          "Hand": {
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-          "Mana": {
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "displayedTitle": "Recursos"
-          },
-          "Discard": {
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER"
-          },
-          "Deck": {
-            "isHidden": "yes",
-            "height": "MEDIUM",
-            "alignment": "DECK"
-          },
-          "Stack": {
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "displayedTitle": "Pila"
-          }
+          "Board": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" }
         }
       }
     }
   },
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/cards.json",
-    "cardBack": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80"
+    "dataUrl": "https://example.com/cards.json",
+    "cardBack": "https://example.com/card-back.jpg"
   }
 }
