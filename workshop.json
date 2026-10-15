@@ -1,0 +1,8 @@
+{
+  "author": "AlonsoElGofres",
+  "gameUrl": "https://raw.githubusercontent.com/AlonsoElGofres/warhammer40k-tcg/main/gamefile.json",
+  "tags": "warhammer,warhammer-40000,science-fiction,tcg,votann",
+  "langs": ["es"],
+  "useAiArts": true,
+  "updates": ["Primera versión de prueba."]
+}
