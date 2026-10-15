@@ -1,0 +1,148 @@
+{
+  "C001": {
+    "id": "C001",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Adiacore"
+        },
+        "type": "Generador de Recursos",
+        "cost": 0,
+        "image": "https://user45478.na.imgto.link/public/20261015/99fb25ac731076d1d37d88d4-adiacore.avif"
+      }
+    },
+    "name": "Adiacore",
+    "type": "Generador de Recursos",
+    "cost": 0,
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 0,
+    "health": 0,
+    "description": "Genera 1 Noctilith",
+    "keywords": [
+      "Mundo tumba",
+      "Generador"
+    ]
+  },
+  "C002": {
+    "id": "C002",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Noctilith"
+        },
+        "type": "Recurso",
+        "cost": 0,
+        "image": "https://user45478.na.imgto.link/public/20261015/bc52b24743ab49e4236f78ae-piedra-negra.avif"
+      }
+    },
+    "name": "Noctilith",
+    "type": "Recurso",
+    "cost": 0,
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 0,
+    "health": 0,
+    "description": "Material para controlar el caos",
+    "keywords": [
+      "Recurso"
+    ]
+  },
+  "C003": {
+    "id": "C003",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Damnos"
+        },
+        "type": "Generador de Recursos",
+        "cost": 0,
+        "image": "https://user45478.na.imgto.link/public/20261015/39b3c2bf37d7d7d3de74923b-dammos.avif"
+      }
+    },
+    "name": "Damnos",
+    "type": "Generador de Recursos",
+    "cost": 0,
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 0,
+    "health": 0,
+    "description": "Genera 2 Noctilith",
+    "keywords": [
+      "Mundo corona",
+      "Generador"
+    ]
+  },
+  "C004": {
+    "id": "C004",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Inmortales"
+        },
+        "type": "Unidad",
+        "cost": 2,
+        "image": "https://user45478.na.imgto.link/public/20261015/e80931d91cf59922d4b24488-inmortales.avif"
+      }
+    },
+    "name": "Inmortales",
+    "type": "Unidad",
+    "cost": 2,
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 3,
+    "health": 4,
+    "description": "Reanimacion 2: Al final de 2 turnos del jugador es exciliado si no es revivido",
+    "keywords": [
+      "Infanteria Pesada"
+    ]
+  },
+  "C005": {
+    "id": "C005",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Reanimador Canóptico"
+        },
+        "type": "Unidad",
+        "cost": 3,
+        "image": "https://user45478.na.imgto.link/public/20261015/42c3e312b27c90aacca831a0-reanimador.avif"
+      }
+    },
+    "name": "Reanimador Canóptico",
+    "type": "Unidad",
+    "cost": 3,
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 1,
+    "health": 1,
+    "description": "Reanimacion area: Al entrar en juego revive a 2 unidades en el campo que tengan \"Reanimacion X\"",
+    "keywords": [
+      "Apoyo"
+    ]
+  },
+  "C006": {
+    "id": "C006",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Guerreros Necrones"
+        },
+        "type": "Unidad",
+        "cost": 1,
+        "image": "https://user45478.na.imgto.link/public/20261015/213db8c2c0f9218b2890a94f-guerrero-necron.avif"
+      }
+    },
+    "name": "Guerreros Necrones",
+    "type": "Unidad",
+    "cost": 1,
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 2,
+    "health": 2,
+    "description": "Reanimacion 1: Al final de 1 turno del jugador es exciliado si no es revivido",
+    "keywords": [
+      "Infanteria Ligera"
+    ]
+  }
+}
