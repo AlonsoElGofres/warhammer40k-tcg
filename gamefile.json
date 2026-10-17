@@ -20,7 +20,8 @@
           "direction": "column",
           "content": [
             { "section": "Board" },
-            { "section": "Campo_de_mejora" }
+            { "section": "Campo_de_mejora" },
+            { "section": "Recursos" }
           ]
         },
         "sectionsDict": {
@@ -30,6 +31,11 @@
             "height": "SMALL",
             "alignment": "CENTER",
             "displayedTitle": "Campo de mejora — Pon aquí tu \"carta de Campo\""
+          },
+          "Recursos": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
           }
         }
       }
