@@ -22,6 +22,9 @@
     "keywords": [
       "Mundo tumba",
       "Generador"
+    ],
+    "tokens": [
+      "C002"
     ]
   },
   "C002": {
@@ -46,7 +49,8 @@
     "description": "Material para controlar el caos",
     "keywords": [
       "Recurso"
-    ]
+    ],
+    "isToken": true
   },
   "C003": {
     "id": "C003",
@@ -71,6 +75,9 @@
     "keywords": [
       "Mundo corona",
       "Generador"
+    ],
+    "tokens": [
+      "C002"
     ]
   },
   "C004": {
