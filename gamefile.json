@@ -33,19 +33,16 @@
                 {
                   "section": "Generadores_de_Recursos",
                   "style": {
-                    "width": "20%"
+                    "width": "22vh"
                   }
                 },
                 {
-                  "section": "Board",
-                  "style": {
-                    "width": "60%"
-                  }
+                  "section": "Board"
                 },
                 {
                   "section": "Recursos",
                   "style": {
-                    "width": "20%"
+                    "width": "22vh"
                   }
                 }
               ]
