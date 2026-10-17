@@ -31,15 +31,21 @@
               "direction": "row",
               "content": [
                 {
+                  "section": "Generadores_de_Recursos",
+                  "style": {
+                    "width": "20%"
+                  }
+                },
+                {
                   "section": "Board",
                   "style": {
-                    "width": "75%"
+                    "width": "60%"
                   }
                 },
                 {
                   "section": "Recursos",
                   "style": {
-                    "width": "25%"
+                    "width": "20%"
                   }
                 }
               ]
@@ -82,6 +88,12 @@
                 }
               ]
             }
+          },
+          "Generadores_de_Recursos": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "displayedTitle": "Aqui coloca tus generadoras de recursos"
           }
         }
       }
