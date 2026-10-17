@@ -1,9 +1,17 @@
 {
   "name": "Warhammer 40k TCG",
   "deckBuilding": {
-    "mainFilters": ["type", "cost", "faction", "subfaction"],
+    "mainFilters": [
+      "type",
+      "cost",
+      "faction",
+      "subfaction"
+    ],
     "formats": [
-      { "title": "Standard format", "gameplay": "Standard" }
+      {
+        "title": "Standard format",
+        "gameplay": "Standard"
+      }
     ]
   },
   "gameplay": {
@@ -19,10 +27,29 @@
         "layout": {
           "direction": "column",
           "content": [
-            { "section": "Board" },
-            { "section": "Campo_de_mejora" },
-            { "section": "Recursos" },
-            { "section": "Crear_Noctilith" }
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "Board",
+                  "style": {
+                    "width": "75%"
+                  }
+                },
+                {
+                  "section": "Recursos",
+                  "style": {
+                    "width": "25%"
+                  }
+                }
+              ]
+            },
+            {
+              "section": "Campo_de_mejora"
+            },
+            {
+              "section": "Crear_Noctilith"
+            }
           ]
         },
         "sectionsDict": {
