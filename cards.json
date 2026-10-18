@@ -25,7 +25,10 @@
     ],
     "tokens": [
       "C002"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C002": {
     "id": "C002",
@@ -50,7 +53,10 @@
     "keywords": [
       "Recurso"
     ],
-    "isToken": true
+    "isToken": true,
+    "_legal": {
+      "STD": true
+    }
   },
   "C003": {
     "id": "C003",
@@ -78,7 +84,10 @@
     ],
     "tokens": [
       "C002"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C004": {
     "id": "C004",
@@ -103,7 +112,10 @@
     "keywords": [
       "Infanteria Pesada",
       "Reanimar"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C005": {
     "id": "C005",
@@ -128,7 +140,10 @@
     "keywords": [
       "Apoyo",
       "Reanimar"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C006": {
     "id": "C006",
@@ -153,7 +168,10 @@
     "keywords": [
       "Infanteria Ligera",
       "Reanimar"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C007": {
     "id": "C007",
@@ -177,7 +195,10 @@
     "description": "Reanimacion individual: Al entrar en juego revive a 1 unidad en el campo que tenga \"Reanimacion X\", ademas, los \"Guerreros Necrones\" en juego ganan +1/+1",
     "keywords": [
       "Mando. Reanimar"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C008": {
     "id": "C008",
@@ -201,7 +222,10 @@
     "description": "Al entrar en juego recuperas 1 unidad del cementerio y la manda al mazo, luego baraja",
     "keywords": [
       "Objeto"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C009": {
     "id": "C009",
@@ -225,7 +249,10 @@
     "description": "Al entrar en juego todas la unidades que esten en campo o entren al campo ganan escudo por 2 turnos solo una vez. Escudo: El siguiente golpe recibido no hace daño. Lleva esta carta a la zona de \"Campo\"",
     "keywords": [
       "Campo"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C010": {
     "id": "C010",
@@ -249,7 +276,10 @@
     "description": "Al entrar en juego hace 5 de daño a una carta enemiga y despues va al cementerio",
     "keywords": [
       "Objeto"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C011": {
     "id": "C011",
@@ -275,7 +305,10 @@
       "Mando",
       "Lider",
       "Infanteria Pesada"
-    ]
+    ],
+    "_legal": {
+      "STD": 1
+    }
   },
   "C012": {
     "id": "C012",
@@ -300,7 +333,10 @@
     "keywords": [
       "Infanteria Ligera",
       "Reanimar"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C013": {
     "id": "C013",
@@ -324,7 +360,10 @@
     "description": "Unidad voladora: Solo pueden recibir daño de objetos u otras fuentes de daño como efectos de habilidad",
     "keywords": [
       "Infanteria voladora"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C014": {
     "id": "C014",
@@ -350,7 +389,10 @@
       "Infanteria Media",
       "Mando",
       "Lider"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C015": {
     "id": "C015",
@@ -374,7 +416,10 @@
     "description": "Al entrar en juego todas las unidades dañadas recureperan 2 de salud maximo hasta su valor original",
     "keywords": [
       "Objeto"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C016": {
     "id": "C016",
@@ -398,7 +443,10 @@
     "description": "Al entrar en juego destruye una carta enemiga y miras la primera carta del mazo, si es una unidad dejala en el tope del mazo, si no dejala al fondo.",
     "keywords": [
       "Objeto"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C017": {
     "id": "C017",
@@ -423,7 +471,10 @@
     "keywords": [
       "Infanteria Ligera",
       "Reanimar"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C018": {
     "id": "C018",
@@ -447,7 +498,10 @@
     "description": "Provocar: Mientras este en el campo atrae todo los ataques excepto los de flanqueo.",
     "keywords": [
       "Infanteria pesada"
-    ]
+    ],
+    "_legal": {
+      "STD": true
+    }
   },
   "C019": {
     "id": "C019",
@@ -472,7 +526,10 @@
     "keywords": [
       "Dios",
       "Entidad"
-    ]
+    ],
+    "_legal": {
+      "STD": 2
+    }
   },
   "C020": {
     "id": "C020",
@@ -497,7 +554,10 @@
     "keywords": [
       "Dios",
       "Entidad"
-    ]
+    ],
+    "_legal": {
+      "STD": 2
+    }
   },
   "C021": {
     "id": "C021",
@@ -522,7 +582,10 @@
     "keywords": [
       "Dios",
       "Entidad"
-    ]
+    ],
+    "_legal": {
+      "STD": 2
+    }
   },
   "C022": {
     "id": "C022",
@@ -547,6 +610,9 @@
     "keywords": [
       "Dios",
       "Entidad"
-    ]
+    ],
+    "_legal": {
+      "STD": 2
+    }
   }
 }
