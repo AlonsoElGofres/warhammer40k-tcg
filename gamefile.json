@@ -11,14 +11,17 @@
       {
         "title": "Standard format",
         "gameplay": "Standard",
-        "deckRuleset": "Standard_50"
+        "deckRuleset": "Standard_50",
+        "legalityCode": "STD"
       }
     ],
     "deckRulesets": {
       "Standard_50": {
+        "checkCardLegality": true,
         "general": {
           "min": 50,
-          "max": 50
+          "max": 50,
+          "maxPerCard": 3
         }
       }
     }
