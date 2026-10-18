@@ -10,9 +10,18 @@
     "formats": [
       {
         "title": "Standard format",
-        "gameplay": "Standard"
+        "gameplay": "Standard",
+        "deckRuleset": "Standard_50"
       }
-    ]
+    ],
+    "deckRulesets": {
+      "Standard_50": {
+        "general": {
+          "min": 50,
+          "max": 50
+        }
+      }
+    }
   },
   "gameplay": {
     "Standard": {
