@@ -1,0 +1,178 @@
+{
+  "C001": {
+    "id": "C001",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Adiacore"
+        },
+        "type": "Generador de Recursos",
+        "cost": 0,
+        "image": "https://user45113.na.imgto.link/public/20261019/28cbe87dddc63a3ba22b7f80-adiacore-terminado.avif"
+      }
+    },
+    "name": "Adiacore",
+    "type": "Generador de Recursos",
+    "cost": 0
+  },
+  "C002": {
+    "id": "C002",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Noctilith"
+        },
+        "type": "Recurso",
+        "cost": 0,
+        "image": "https://user45113.na.imgto.link/public/20261019/a97044f035d2c29fb86e5c67-noctilih-terminado.avif"
+      }
+    },
+    "name": "Noctilith",
+    "type": "Recurso",
+    "cost": 0
+  },
+  "C003": {
+    "id": "C003",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Damnos"
+        },
+        "type": "Generador de Recursos",
+        "cost": 1,
+        "image": "https://user45113.na.imgto.link/public/20261019/6b1ee483f6b510b6c4493b27-damnos-terminado.avif"
+      }
+    },
+    "name": "Damnos",
+    "type": "Generador de Recursos",
+    "cost": 1
+  },
+  "C004": {
+    "id": "C004",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Monolito de Cosecha"
+        },
+        "type": "Generador de Recursos",
+        "cost": 0,
+        "image": "https://user45113.na.imgto.link/public/20261019/9c216b16cbd266ce0cdb27da-monolito-de-cosecha-terminado.avif"
+      }
+    },
+    "name": "Monolito de Cosecha",
+    "type": "Generador de Recursos",
+    "cost": 0
+  },
+  "C005": {
+    "id": "C005",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Complejo de Cosecha de Piedra Negra"
+        },
+        "type": "Generador de Recursos",
+        "cost": 1,
+        "image": "https://user45113.na.imgto.link/public/20261020/72ccf2ed76b31ea88239c941-monolito-de-cosecha-terminado.avif"
+      }
+    },
+    "name": "Complejo de Cosecha de Piedra Negra",
+    "type": "Generador de Recursos",
+    "cost": 1
+  },
+  "C006": {
+    "id": "C006",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Bóveda de Estasis Temporal"
+        },
+        "type": "Generador de Recursos",
+        "cost": 1,
+        "image": "https://user45113.na.imgto.link/public/20261020/8de4cd4c803ba190c067deb3-boveda-de-estasis-temporal-terminado.avif"
+      }
+    },
+    "name": "Bóveda de Estasis Temporal",
+    "type": "Generador de Recursos",
+    "cost": 1
+  },
+  "C007": {
+    "id": "C007",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Constructo Canóptero"
+        },
+        "type": "Unidad",
+        "cost": 1,
+        "image": "https://user45113.na.imgto.link/public/20261020/b04a3f8c49859bdba58cd554-constructo-can-ptero-terminado.avif"
+      }
+    },
+    "name": "Constructo Canóptero",
+    "type": "Unidad",
+    "cost": 1
+  },
+  "C008": {
+    "id": "C008",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Orikan el Adivino"
+        },
+        "type": "Unidad",
+        "cost": 4,
+        "image": "https://user45113.na.imgto.link/public/20261020/da8b83e1b0224765bc515d59-orikan-terminado.avif"
+      }
+    },
+    "name": "Orikan el Adivino",
+    "type": "Unidad",
+    "cost": 4
+  },
+  "C009": {
+    "id": "C009",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Iluminor Szeras"
+        },
+        "type": "Unidad",
+        "cost": 5,
+        "image": "https://user45113.na.imgto.link/public/20261020/90dbd8ee2960bb0044abbf17-iluminor-terminado.avif"
+      }
+    },
+    "name": "Iluminor Szeras",
+    "type": "Unidad",
+    "cost": 5
+  },
+  "C010": {
+    "id": "C010",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Toholk el Maestro Artesano"
+        },
+        "type": "Unidad",
+        "cost": 2,
+        "image": "https://user45113.na.imgto.link/public/20261020/9232e329c90072287ab64279-toholk-terminado.avif"
+      }
+    },
+    "name": "Toholk el Maestro Artesano",
+    "type": "Unidad",
+    "cost": 2
+  },
+  "C011": {
+    "id": "C011",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Lorda de la Destrucción"
+        },
+        "type": "Unidad",
+        "cost": 3,
+        "image": "https://user45113.na.imgto.link/public/20261020/eb5e462414474b205e92a11a-lockhust-terminado.avif"
+      }
+    },
+    "name": "Lorda de la Destrucción",
+    "type": "Unidad",
+    "cost": 3
+  }
+}
