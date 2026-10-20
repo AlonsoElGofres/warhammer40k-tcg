@@ -1,0 +1,305 @@
+{
+  "C001": {
+    "id": "C001",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Adiacore"
+        },
+        "type": "Generador de Recursos",
+        "cost": 0,
+        "image": "https://user45113.na.imgto.link/public/20261019/28cbe87dddc63a3ba22b7f80-adiacore-terminado.avif"
+      }
+    },
+    "name": "Adiacore",
+    "type": "Generador de Recursos",
+    "cost": 0,
+    "_legal": {
+      "STD": true
+    },
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 0,
+    "health": 0,
+    "description": "Gira: Genera 1 Noctilih",
+    "keywords": [
+      "Mundo tumba",
+      "Generador"
+    ]
+  },
+  "C002": {
+    "id": "C002",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Noctilith"
+        },
+        "type": "Recurso",
+        "cost": 0,
+        "image": "https://user45113.na.imgto.link/public/20261019/a97044f035d2c29fb86e5c67-noctilih-terminado.avif"
+      }
+    },
+    "name": "Noctilith",
+    "type": "Recurso",
+    "cost": 0,
+    "_legal": {
+      "STD": true
+    },
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 0,
+    "health": 0,
+    "description": "Recurso basico",
+    "keywords": [
+      "Recurso"
+    ]
+  },
+  "C003": {
+    "id": "C003",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Damnos"
+        },
+        "type": "Generador de Recursos",
+        "cost": 1,
+        "image": "https://user45113.na.imgto.link/public/20261019/6b1ee483f6b510b6c4493b27-damnos-terminado.avif"
+      }
+    },
+    "name": "Damnos",
+    "type": "Generador de Recursos",
+    "cost": 1,
+    "_legal": {
+      "STD": true
+    },
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 0,
+    "health": 0,
+    "description": "Gira: Genera 1 Noctilih. Entrada: Al entrar en juego si hay 2 o mas cartas en la \"Zona extra\" genera 1 Noctilih",
+    "keywords": [
+      "Mundo corona",
+      "Generador"
+    ]
+  },
+  "C004": {
+    "id": "C004",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Monolito de Cosecha"
+        },
+        "type": "Generador de Recursos",
+        "cost": 0,
+        "image": "https://user45113.na.imgto.link/public/20261019/9c216b16cbd266ce0cdb27da-monolito-de-cosecha-terminado.avif"
+      }
+    },
+    "name": "Monolito de Cosecha",
+    "type": "Generador de Recursos",
+    "cost": 0,
+    "_legal": {
+      "STD": true
+    },
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 0,
+    "health": 0,
+    "description": "Gira: Genera 1 Noctilih.",
+    "keywords": [
+      "Generador"
+    ]
+  },
+  "C005": {
+    "id": "C005",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Complejo de Cosecha de Piedra Negra"
+        },
+        "type": "Generador de Recursos",
+        "cost": 1,
+        "image": "https://user45113.na.imgto.link/public/20261020/72ccf2ed76b31ea88239c941-monolito-de-cosecha-terminado.avif"
+      }
+    },
+    "name": "Complejo de Cosecha de Piedra Negra",
+    "type": "Generador de Recursos",
+    "cost": 1,
+    "_legal": {
+      "STD": true
+    },
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 0,
+    "health": 0,
+    "description": "Gira: Genera 1 Noctilih. Pasiva: Si hay un constructo Canóptero en juego, genera 1 de Noctilih extra cuando gira.",
+    "keywords": [
+      "Generador"
+    ]
+  },
+  "C006": {
+    "id": "C006",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Bóveda de Estasis Temporal"
+        },
+        "type": "Generador de Recursos",
+        "cost": 1,
+        "image": "https://user45113.na.imgto.link/public/20261020/8de4cd4c803ba190c067deb3-boveda-de-estasis-temporal-terminado.avif"
+      }
+    },
+    "name": "Bóveda de Estasis Temporal",
+    "type": "Generador de Recursos",
+    "cost": 1,
+    "_legal": {
+      "STD": true
+    },
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 0,
+    "health": 0,
+    "description": "Gira: Genera 1 Noctilih. Pasiva: Al final del turno puedes almacenar 1 de Noctilih hasta un maximo de 3, puedes romper la bobeda cuando quieras para obtenerlo, descartala despues de romperla.",
+    "keywords": [
+      "Generador"
+    ]
+  },
+  "C007": {
+    "id": "C007",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Constructo Canóptero"
+        },
+        "type": "Unidad",
+        "cost": 1,
+        "image": "https://user45113.na.imgto.link/public/20261020/b04a3f8c49859bdba58cd554-constructo-can-ptero-terminado.avif"
+      }
+    },
+    "name": "Constructo Canóptero",
+    "type": "Unidad",
+    "cost": 1,
+    "_legal": {
+      "STD": true
+    },
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 1,
+    "health": 2,
+    "description": "No tiene efecto",
+    "keywords": [
+      "Monstruo"
+    ]
+  },
+  "C008": {
+    "id": "C008",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Orikan el Adivino"
+        },
+        "type": "Unidad",
+        "cost": 4,
+        "image": "https://user45113.na.imgto.link/public/20261020/da8b83e1b0224765bc515d59-orikan-terminado.avif"
+      }
+    },
+    "name": "Orikan el Adivino",
+    "type": "Unidad",
+    "cost": 4,
+    "_legal": {
+      "STD": true
+    },
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 1,
+    "health": 5,
+    "description": "Pasiva: Si sobrevive 3 turnos en el campo aumenta en +2/+2 las estadisticas de cada unidad en el campo. Entrada: Mira la primera carta de tu mazo, luego elige si revelarla y añadirla a tu mano o dejarla al fondo del mazo",
+    "keywords": [
+      "Mando",
+      "Señor"
+    ]
+  },
+  "C009": {
+    "id": "C009",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Iluminor Szeras"
+        },
+        "type": "Unidad",
+        "cost": 5,
+        "image": "https://user45113.na.imgto.link/public/20261020/90dbd8ee2960bb0044abbf17-iluminor-terminado.avif"
+      }
+    },
+    "name": "Iluminor Szeras",
+    "type": "Unidad",
+    "cost": 5,
+    "_legal": {
+      "STD": true
+    },
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 1,
+    "health": 3,
+    "description": "Pasiva: Mientras este en la mano si un aliado en campo cae aumenta en +1 su ataque. Entrada: Al entrar en juego busca en tu mazo dos cartas que contengan la palabra \"Canoptero\" e invocalas.",
+    "keywords": [
+      "Mando",
+      "Señor"
+    ]
+  },
+  "C010": {
+    "id": "C010",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Toholk el Maestro Artesano"
+        },
+        "type": "Unidad",
+        "cost": 2,
+        "image": "https://user45113.na.imgto.link/public/20261020/9232e329c90072287ab64279-toholk-terminado.avif"
+      }
+    },
+    "name": "Toholk el Maestro Artesano",
+    "type": "Unidad",
+    "cost": 2,
+    "_legal": {
+      "STD": true
+    },
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 3,
+    "health": 2,
+    "description": "Entrada: Roba 2 cartas. Gira: cura 2 puntos de vida a un \"vehiculo\" en tu campo.",
+    "keywords": [
+      "Mando",
+      "Señor"
+    ]
+  },
+  "C011": {
+    "id": "C011",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Lorda de la Destrucción"
+        },
+        "type": "Unidad",
+        "cost": 3,
+        "image": "https://user45113.na.imgto.link/public/20261020/eb5e462414474b205e92a11a-lockhust-terminado.avif"
+      }
+    },
+    "name": "Lorda de la Destrucción",
+    "type": "Unidad",
+    "cost": 3,
+    "_legal": {
+      "STD": true
+    },
+    "faction": "Xenos",
+    "subfaction": "Necrones",
+    "attack": 1,
+    "health": 4,
+    "description": "Volador: Solo puede ser atacado por \"unidades a distancia\" u \"objetos\". Los efectos de habilidades tambien afectan. Destruccion: Si despues de atacar el objetivo sobrevive pierde 1 de vida Lorda y lo destruye.",
+    "keywords": [
+      "Mando",
+      "Señor"
+    ]
+  }
+}
